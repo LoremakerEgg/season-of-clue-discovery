@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Welcome
 
-## Getting Started
+This is a project structured around the seasonal World of Warcraft Classic servers currently called Season of Discovery! Within this specific gamemode, you are able to find and use various runes that offer class-altering abilities to each class that finds it. These runes vary in location based on class and faction, and some can be found in a multitude of zones within the game!
 
-First, run the development server:
+## Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The point of this web app is to offer an alternative way of locating these runes by offering varying levels of clues and suggestions that might assist players in locating the runes by themselves!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Similar apps
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Already established websites like WowHead offer a way for players to locate the runes by giving direct locations and steps to finding them, but what this app offers is a way to keep some of the mystery intact by instead offering clues and suggestions to where the player might go to locate the runes!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+Intended future features includes ways to sort your desired level of clue discovery. The app is intended to fit people of all wants and needs, from those that only want a nudge to those that want full step by step processes in an easy to follow manner. Other sorting options are going to include faction-based sorting, zone-based sorting and rune-based sorting depending on preference.
 
-To learn more about Next.js, take a look at the following resources:
+## Thanks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for checking out this project's GitHub! Feel free to reach out to me if you have feedback or questions!
