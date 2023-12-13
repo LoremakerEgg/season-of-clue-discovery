@@ -1,9 +1,7 @@
 "use client";
 
+import Sorting from "../components/Sorting";
+
 export default function RoguePage() {
-  return (
-    <main>
-      <h1>Rogue</h1>
-    </main>
-  );
+  return <Sorting class="Rogue" />;
 }

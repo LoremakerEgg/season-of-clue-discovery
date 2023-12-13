@@ -1,9 +1,7 @@
 "use client";
 
+import Sorting from "../components/Sorting";
+
 export default function WarriorPage() {
-  return (
-    <main>
-      <h1>Warrior</h1>
-    </main>
-  );
+  return <Sorting class="Warrior" />;
 }

@@ -1,9 +1,7 @@
 "use client";
 
+import Sorting from "../components/Sorting";
+
 export default function ShamanPage() {
-  return (
-    <main>
-      <h1>Shaman</h1>
-    </main>
-  );
+  return <Sorting class="Shaman" />;
 }

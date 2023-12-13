@@ -1,9 +1,6 @@
 "use client";
+import Sorting from "../components/Sorting";
 
 export default function HunterPage() {
-  return (
-    <main>
-      <h1>Hunter</h1>
-    </main>
-  );
+  return <Sorting class="Hunter" />;
 }

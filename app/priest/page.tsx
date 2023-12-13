@@ -1,9 +1,7 @@
 "use client";
 
+import Sorting from "../components/Sorting";
+
 export default function PriestPage() {
-  return (
-    <main>
-      <h1>Priest</h1>
-    </main>
-  );
+  return <Sorting class="Priest" />;
 }

@@ -1,9 +1,7 @@
 "use client";
 
+import Sorting from "../components/Sorting";
+
 export default function MagePage() {
-  return (
-    <main>
-      <h1>Mage</h1>
-    </main>
-  );
+  return <Sorting class="Mage" />;
 }

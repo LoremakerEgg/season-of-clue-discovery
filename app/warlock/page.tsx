@@ -1,9 +1,7 @@
 "use client";
 
+import Sorting from "../components/Sorting";
+
 export default function WarlockPage() {
-  return (
-    <main>
-      <h1>Warlock</h1>
-    </main>
-  );
+  return <Sorting class="Warlock" />;
 }
