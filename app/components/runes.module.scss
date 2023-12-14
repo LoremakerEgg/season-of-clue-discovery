@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  .runesDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 25px;
+    margin-bottom: 25%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    .titleDiv {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}

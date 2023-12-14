@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .racesDiv {
+    .image {
+      -webkit-filter: grayscale(1);
+      filter: gray;
+      filter: grayscale(1);
+    }
+  }
+}
