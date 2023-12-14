@@ -35,10 +35,10 @@ const Runes = (props: any) => {
               setRumorOne(!rumorOne);
             }}
           >
-            {props.runeOneRaceOne}
+            {props.runeOne}
           </h2>
         </div>
-        {rumorOne ? <p>{props.runeOneRaceOneRumor} </p> : ""}
+        {rumorOne ? <p>{props.runeOneRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
             src="/druid.png"
@@ -51,10 +51,10 @@ const Runes = (props: any) => {
               setRumorTwo(!rumorTwo);
             }}
           >
-            {props.runeTwoRaceOne}
+            {props.runeTwo}
           </h2>
         </div>
-        {rumorTwo ? <p>{props.runeTwoRaceOneRumor} </p> : ""}
+        {rumorTwo ? <p>{props.runeTwoRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
             src="/druid.png"
@@ -67,7 +67,7 @@ const Runes = (props: any) => {
               setRumorThree(!rumorThree);
             }}
           >
-            {props.runeThreeRaceOne}
+            {props.runeThree}
           </h2>
         </div>
         {rumorThree ? <p>{props.runeFourRumor} </p> : ""}
@@ -83,7 +83,7 @@ const Runes = (props: any) => {
               setRumorFour(!rumorFour);
             }}
           >
-            {props.runeFourRaceOne}
+            {props.runeFour}
           </h2>
         </div>
         {rumorFour ? <p>{props.runeFourRumor} </p> : ""}
@@ -99,7 +99,7 @@ const Runes = (props: any) => {
               setRumorFive(!rumorFive);
             }}
           >
-            {props.runeFiveRaceOne}
+            {props.runeFive}
           </h2>
         </div>
         {rumorFive ? <p>{props.runeFiveRumor} </p> : ""}
@@ -115,7 +115,7 @@ const Runes = (props: any) => {
               setRumorSix(!rumorSix);
             }}
           >
-            {props.runeSixRaceOne}
+            {props.runeSix}
           </h2>
         </div>
         {rumorSix ? <p>{props.runeSixRumor} </p> : ""}
@@ -131,7 +131,7 @@ const Runes = (props: any) => {
               setRumorSeven(!rumorSeven);
             }}
           >
-            {props.runeSevenRaceOne}
+            {props.runeSeven}
           </h2>
         </div>
         {rumorSeven ? <p>{props.runeSevenRumor} </p> : ""}
@@ -147,7 +147,7 @@ const Runes = (props: any) => {
               setRumorEight(!rumorEight);
             }}
           >
-            {props.runeEightRaceOne}
+            {props.runeEight}
           </h2>
         </div>
         {rumorEight ? <p>{props.runeEightRumor} </p> : ""}
@@ -163,7 +163,7 @@ const Runes = (props: any) => {
               setRumorNine(!rumorNine);
             }}
           >
-            {props.runeNineRaceOne}
+            {props.runeNine}
           </h2>
         </div>
         {rumorNine ? <p>{props.runeNineRumor} </p> : ""}
@@ -179,7 +179,7 @@ const Runes = (props: any) => {
               setRumorTen(!rumorTen);
             }}
           >
-            {props.runeTenRaceOne}
+            {props.runeTen}
           </h2>
         </div>
         {rumorTen ? <p>{props.runeTenRumor} </p> : ""}
@@ -195,7 +195,7 @@ const Runes = (props: any) => {
               setRumorEleven(!rumorEleven);
             }}
           >
-            {props.runeElevenRaceOne}
+            {props.runeEleven}
           </h2>
         </div>
         {rumorEleven ? <p>{props.runeElevenRumor} </p> : ""}
@@ -211,7 +211,7 @@ const Runes = (props: any) => {
               setRumorTwelve(!rumorTwelve);
             }}
           >
-            {props.runeTwelveRaceOne}
+            {props.runeTwelve}
           </h2>
         </div>
         {rumorTwelve ? <p>{props.runeTwelveRumor} </p> : ""}

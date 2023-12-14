@@ -79,20 +79,20 @@ const Sorting = (props: any) => {
           </h2>
         </div>
         <Runes
-          runeOneRaceOne={props.runeOneRaceOne}
-          runeOneRaceOneRumor={props.runeOneRaceOneRumor}
-          runeTwoRaceOne={props.runeTwoRaceOne}
-          runeTwoRaceOneRumor={props.runeTwoRaceOneRumor}
-          runeThreeRaceOne={props.runeThreeRaceOne}
-          runeFourRaceOne={props.runeFourRaceOne}
-          runeFiveRaceOne={props.runeFiveRaceOne}
-          runeSixRaceOne={props.runeSixRaceOne}
-          runeSevenRaceOne={props.runeSevenRaceOne}
-          runeEightRaceOne={props.runeEightRaceOne}
-          runeNineRaceOne={props.runeNineRaceOne}
-          runeTenRaceOne={props.runeTenRaceOne}
-          runeElevenRaceOne={props.runeElevenRaceOne}
-          runeTwelveRaceOne={props.runeTwelveRaceOne}
+          runeOne={props.runeOne}
+          runeOneRumor={props.runeOneRumor}
+          runeTwo={props.runeTwo}
+          runeTwoRumor={props.runeTwoRumor}
+          runeThree={props.runeThree}
+          runeFour={props.runeFour}
+          runeFive={props.runeFive}
+          runeSix={props.runeSix}
+          runeSeven={props.runeSeven}
+          runeEight={props.runeEight}
+          runeNine={props.runeNine}
+          runeTen={props.runeTen}
+          runeEleven={props.runeEleven}
+          runeTwelve={props.runeTwelve}
         />
       </main>
     );
