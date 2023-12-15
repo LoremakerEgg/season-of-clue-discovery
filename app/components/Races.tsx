@@ -7,49 +7,60 @@ import { useRaceContext } from "../context/raceContext";
 const Races = (props: any) => {
   const { activeRace, setActiveRace } = useRaceContext();
 
+  const checkImageOne = props.raceOneImage;
+  const checkImageTwo = props.raceTwoImage;
+
   return (
     <main className={styles.main}>
       <div className={styles.racesDiv}>
         <h3>Races</h3>
-        {activeRace == 1 ? (
-          <Image
-            src="/druid.png"
-            alt={props.raceOne}
-            width={40}
-            height={40}
-            className={styles.image}
-          />
+        {checkImageOne ? (
+          activeRace == 1 ? (
+            <Image
+              src={props.raceOneImage}
+              alt={props.raceOne}
+              width={40}
+              height={40}
+              className={styles.image}
+            />
+          ) : (
+            <Image
+              src={props.raceOneImage}
+              alt={props.raceOne}
+              width={40}
+              height={40}
+              onClick={() => {
+                setActiveRace(1);
+              }}
+              style={{ cursor: "pointer" }}
+            />
+          )
         ) : (
-          <Image
-            src="/druid.png"
-            alt={props.raceOne}
-            width={40}
-            height={40}
-            onClick={() => {
-              setActiveRace(1);
-            }}
-            style={{ cursor: "pointer" }}
-          />
+          ""
         )}
-        {activeRace == 2 ? (
-          <Image
-            src="/shaman.png"
-            alt={props.raceTwo}
-            width={40}
-            height={40}
-            className={styles.image}
-          />
+        {checkImageTwo ? (
+          activeRace == 2 ? (
+            <Image
+              src={props.raceTwoImage}
+              alt={props.raceTwo}
+              width={40}
+              height={40}
+              className={styles.image}
+            />
+          ) : (
+            <Image
+              src={props.raceTwoImage}
+              alt={props.raceTwo}
+              width={40}
+              height={40}
+              onClick={() => {
+                setActiveRace(2);
+              }}
+              style={{ cursor: "pointer" }}
+            />
+          )
         ) : (
-          <Image
-            src="/shaman.png"
-            alt={props.raceTwo}
-            width={40}
-            height={40}
-            onClick={() => {
-              setActiveRace(2);
-            }}
-            style={{ cursor: "pointer" }}
-          />
+          ""
         )}
       </div>
     </main>

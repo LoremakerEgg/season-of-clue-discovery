@@ -25,7 +25,7 @@ const Runes = (props: any) => {
       <div className={styles.runesDiv}>
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeOneAlt}
@@ -41,7 +41,7 @@ const Runes = (props: any) => {
         {rumorOne ? <p>{props.runeOneRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeTwoAlt}
@@ -57,7 +57,7 @@ const Runes = (props: any) => {
         {rumorTwo ? <p>{props.runeTwoRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeThreeAlt}
@@ -73,7 +73,7 @@ const Runes = (props: any) => {
         {rumorThree ? <p>{props.runeFourRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeFourAlt}
@@ -89,7 +89,7 @@ const Runes = (props: any) => {
         {rumorFour ? <p>{props.runeFourRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeFiveAlt}
@@ -105,7 +105,7 @@ const Runes = (props: any) => {
         {rumorFive ? <p>{props.runeFiveRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeSixAlt}
@@ -121,7 +121,7 @@ const Runes = (props: any) => {
         {rumorSix ? <p>{props.runeSixRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeSevenAlt}
@@ -137,7 +137,7 @@ const Runes = (props: any) => {
         {rumorSeven ? <p>{props.runeSevenRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeEightAlt}
@@ -153,7 +153,7 @@ const Runes = (props: any) => {
         {rumorEight ? <p>{props.runeEightRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeNineAlt}
@@ -169,7 +169,7 @@ const Runes = (props: any) => {
         {rumorNine ? <p>{props.runeNineRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeTenAlt}
@@ -185,7 +185,7 @@ const Runes = (props: any) => {
         {rumorTen ? <p>{props.runeTenRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeElevenAlt}
@@ -201,7 +201,7 @@ const Runes = (props: any) => {
         {rumorEleven ? <p>{props.runeElevenRumor} </p> : ""}
         <div className={styles.titleDiv}>
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             width={40}
             height={40}
             alt={props.runeTwelveAlt}

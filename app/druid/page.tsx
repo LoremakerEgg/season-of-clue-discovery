@@ -27,6 +27,8 @@ export default function DruidPage() {
       runeTwelve="Wild Strikes"
       runeOneRumor="Hit level 2 and speak to your trainer."
       runeTwoRumor="Do something TEST PURPOSE"
+      raceOneImage="/wow-icons/character_nightelf_female.webp"
+      raceTwoImage="/wow-icons/character_tauren_male.webp"
     />
   );
 }

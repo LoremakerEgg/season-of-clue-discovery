@@ -28,7 +28,7 @@ export default function Home() {
       <div className={styles.classIconsDiv}>
         <Link href="/druid">
           <Image
-            src="/druid.png"
+            src="/wow-icons/druid.png"
             alt="world of warcraft druid icon"
             width={64}
             height={64}
@@ -36,7 +36,7 @@ export default function Home() {
         </Link>
         <Link href="/hunter">
           <Image
-            src="/hunter.png"
+            src="/wow-icons/hunter.png"
             alt="world of warcraft hunter icon"
             width={64}
             height={64}
@@ -44,7 +44,7 @@ export default function Home() {
         </Link>
         <Link href="/mage">
           <Image
-            src="/mage.png"
+            src="/wow-icons/mage.png"
             alt="world of warcraft mage icon"
             width={64}
             height={64}
@@ -52,7 +52,7 @@ export default function Home() {
         </Link>
         <Link href="/paladin">
           <Image
-            src="/paladin.png"
+            src="/wow-icons/paladin.png"
             alt="world of warcraft paladin icon"
             width={64}
             height={64}
@@ -60,7 +60,7 @@ export default function Home() {
         </Link>
         <Link href="/priest">
           <Image
-            src="/priest.png"
+            src="/wow-icons/priest.png"
             alt="world of warcraft priest icon"
             width={64}
             height={64}
@@ -68,7 +68,7 @@ export default function Home() {
         </Link>
         <Link href="/rogue">
           <Image
-            src="/rogue.png"
+            src="/wow-icons/rogue.png"
             alt="world of warcraft rogue icon"
             width={64}
             height={64}
@@ -76,7 +76,7 @@ export default function Home() {
         </Link>
         <Link href="/shaman">
           <Image
-            src="/shaman.png"
+            src="/wow-icons/shaman.png"
             alt="world of warcraft shaman icon"
             width={64}
             height={64}
@@ -84,7 +84,7 @@ export default function Home() {
         </Link>
         <Link href="/warlock">
           <Image
-            src="/warlock.png"
+            src="/wow-icons/warlock.png"
             alt="world of warcraft warlock icon"
             width={64}
             height={64}
@@ -92,7 +92,7 @@ export default function Home() {
         </Link>
         <Link href="/warrior">
           <Image
-            src="/warrior.png"
+            src="/wow-icons/warrior.png"
             alt="world of warcraft warrior icon"
             width={64}
             height={64}

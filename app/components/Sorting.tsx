@@ -44,7 +44,10 @@ const Sorting = (props: any) => {
         <div className={styles.title}>
           <h1>{props.class} Runes</h1>
         </div>
-        <Races />
+        <Races
+          raceOneImage={props.raceOneImage ? props.raceOneImage : ""}
+          raceTwoImage={props.raceTwoImage ? props.raceTwoImage : ""}
+        />
         <div className={styles.displayChoiceDiv}>
           <h2 onClick={zoneSortClick} style={{ cursor: "pointer" }}>
             Sort By Zone
@@ -69,7 +72,10 @@ const Sorting = (props: any) => {
         <div className={styles.title}>
           <h1>{props.class} Runes</h1>
         </div>
-        <Races />
+        <Races
+          raceOneImage={props.raceOneImage ? props.raceOneImage : ""}
+          raceTwoImage={props.raceTwoImage ? props.raceTwoImage : ""}
+        />
         <div className={styles.displayChoiceDiv}>
           <h2 onClick={zoneSortClick} style={{ cursor: "pointer" }}>
             Sort By Zone
