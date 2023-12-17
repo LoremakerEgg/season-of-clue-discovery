@@ -58,11 +58,35 @@ const Sorting = (props: any) => {
         </div>
         <Zone
           infoStarterZoneFirstRune={props.infoStarterZoneFirstRune}
-          infoStarterZoneSecondRune={props.infoStarterZoneSecondRune}
-          infoCities={props.infoCities}
+          infoStarterZoneSecondRuneRaceOne={
+            props.infoStarterZoneSecondRuneRaceOne
+          }
+          infoStarterZoneSecondRuneRaceTwo={
+            props.infoStarterZoneSecondRuneRaceTwo
+          }
+          infoStarterZoneThirdRuneRaceOne={
+            props.infoStarterZoneThirdRuneRaceOne
+          }
+          infoStarterZoneThirdRuneRaceTwo={
+            props.infoStarterZoneThirdRuneRaceTwo
+          }
+          infoStarterZoneFourthRuneRaceOne={
+            props.infoStarterZoneFourthRuneRaceOne
+          }
+          infoStarterZoneFourthRuneRaceTwo={
+            props.infoStarterZoneFourthRuneRaceTwo
+          }
+          infoCitiesRaceOne={props.infoCitiesRaceOne}
+          infoCitiesRaceTwo={props.infoCitiesRaceTwo}
           infoSecondZone={props.infoSecondZone}
           infoThirdZone={props.infoThirdZone}
           infoSecretZone={props.infoSecretZone}
+          zoneOneRaceOne={props.zoneOneRaceOne}
+          zoneOneRaceTwo={props.zoneOneRaceTwo}
+          zoneOneCityRaceOne={props.zoneOneCityRaceOne}
+          zoneOneCityRaceTwo={props.zoneOneCityRaceTwo}
+          zoneTwoRaceOne={props.zoneTwoRaceOne}
+          zoneTwoRaceTwo={props.zoneTwoRaceTwo}
         />
       </main>
     );
@@ -88,7 +112,8 @@ const Sorting = (props: any) => {
           runeOne={props.runeOne}
           runeOneRumor={props.runeOneRumor}
           runeTwo={props.runeTwo}
-          runeTwoRumor={props.runeTwoRumor}
+          runeTwoRumorRaceOne={props.runeTwoRumorRaceOne}
+          runeTwoRumorRaceTwo={props.runeTwoRumorRaceTwo}
           runeThree={props.runeThree}
           runeFour={props.runeFour}
           runeFive={props.runeFive}
@@ -99,6 +124,26 @@ const Sorting = (props: any) => {
           runeTen={props.runeTen}
           runeEleven={props.runeEleven}
           runeTwelve={props.runeTwelve}
+          runeThreeRumorRaceOne={props.runeThreeRumorRaceOne}
+          runeFourRumorRaceOne={props.runeFourRumorRaceOne}
+          runeFiveRumorRaceOne={props.runeFiveRumorRaceOne}
+          runeSixRumorRaceOne={props.runeSixRumorRaceOne}
+          runeSevenRumorRaceOne={props.runeSevenRumorRaceOne}
+          runeEightRumorRaceOne={props.runeEightRumorRaceOne}
+          runeNineRumorRaceOne={props.runeNineRumorRaceOne}
+          runeTenRumorRaceOne={props.runeTenRumorRaceOne}
+          runeElevenRumorRaceOne={props.runeElevenRumorRaceOne}
+          runeTwelveRumorRaceOne={props.runeTwelveRumorRaceOne}
+          runeThreeRumorRaceTwo={props.runeThreeRumorRaceTwo}
+          runeFourRumorRaceTwo={props.runeFourRumorRaceTwo}
+          runeFiveRumorRaceTwo={props.runeFiveRumorRaceTwo}
+          runeSixRumorRaceTwo={props.runeSixRumorRaceTwo}
+          runeSevenRumorRaceTwo={props.runeSevenRumorRaceTwo}
+          runeEightRumorRaceTwo={props.runeEightRumorRaceTwo}
+          runeNineRumorRaceTwo={props.runeNineRumorRaceTwo}
+          runeTenRumorRaceTwo={props.runeTenRumorRaceTwo}
+          runeElevenRumorRaceTwo={props.runeElevenRumorRaceTwo}
+          runeTwelveRumorRaceTwo={props.runeTwelveRumorRaceTwo}
         />
       </main>
     );

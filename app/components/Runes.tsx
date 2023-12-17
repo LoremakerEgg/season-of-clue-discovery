@@ -20,204 +20,405 @@ const Runes = (props: any) => {
 
   const { activeRace } = useRaceContext();
 
-  return (
-    <main className={styles.main}>
-      <div className={styles.runesDiv}>
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeOneAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorOne(!rumorOne);
-            }}
-          >
-            {props.runeOne}
-          </h2>
+  if (activeRace == 1) {
+    return (
+      <main className={styles.main}>
+        <div className={styles.runesDiv}>
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeOneAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorOne(!rumorOne);
+              }}
+            >
+              {props.runeOne}
+            </h2>
+          </div>
+          {rumorOne ? <p>{props.runeOneRumor} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeTwoAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorTwo(!rumorTwo);
+              }}
+            >
+              {props.runeTwo}
+            </h2>
+          </div>
+          {rumorTwo ? <p>{props.runeTwoRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeThreeAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorThree(!rumorThree);
+              }}
+            >
+              {props.runeThree}
+            </h2>
+          </div>
+          {rumorThree ? <p>{props.runeThreeRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeFourAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorFour(!rumorFour);
+              }}
+            >
+              {props.runeFour}
+            </h2>
+          </div>
+          {rumorFour ? <p>{props.runeFourRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeFiveAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorFive(!rumorFive);
+              }}
+            >
+              {props.runeFive}
+            </h2>
+          </div>
+          {rumorFive ? <p>{props.runeFiveRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeSixAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorSix(!rumorSix);
+              }}
+            >
+              {props.runeSix}
+            </h2>
+          </div>
+          {rumorSix ? <p>{props.runeSixRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeSevenAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorSeven(!rumorSeven);
+              }}
+            >
+              {props.runeSeven}
+            </h2>
+          </div>
+          {rumorSeven ? <p>{props.runeSevenRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeEightAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorEight(!rumorEight);
+              }}
+            >
+              {props.runeEight}
+            </h2>
+          </div>
+          {rumorEight ? <p>{props.runeEightRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeNineAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorNine(!rumorNine);
+              }}
+            >
+              {props.runeNine}
+            </h2>
+          </div>
+          {rumorNine ? <p>{props.runeNineRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeTenAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorTen(!rumorTen);
+              }}
+            >
+              {props.runeTen}
+            </h2>
+          </div>
+          {rumorTen ? <p>{props.runeTenRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeElevenAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorEleven(!rumorEleven);
+              }}
+            >
+              {props.runeEleven}
+            </h2>
+          </div>
+          {rumorEleven ? <p>{props.runeElevenRumorRaceOne} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeTwelveAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorTwelve(!rumorTwelve);
+              }}
+            >
+              {props.runeTwelve}
+            </h2>
+          </div>
+          {rumorTwelve ? <p>{props.runeTwelveRumorRaceOne} </p> : ""}
         </div>
-        {rumorOne ? <p>{props.runeOneRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeTwoAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorTwo(!rumorTwo);
-            }}
-          >
-            {props.runeTwo}
-          </h2>
+      </main>
+    );
+  } else if (activeRace == 2) {
+    return (
+      <main className={styles.main}>
+        <div className={styles.runesDiv}>
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeOneAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorOne(!rumorOne);
+              }}
+            >
+              {props.runeOne}
+            </h2>
+          </div>
+          {rumorOne ? <p>{props.runeOneRumor} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeTwoAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorTwo(!rumorTwo);
+              }}
+            >
+              {props.runeTwo}
+            </h2>
+          </div>
+          {rumorTwo ? <p>{props.runeTwoRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeThreeAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorThree(!rumorThree);
+              }}
+            >
+              {props.runeThree}
+            </h2>
+          </div>
+          {rumorThree ? <p>{props.runeThreeRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeFourAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorFour(!rumorFour);
+              }}
+            >
+              {props.runeFour}
+            </h2>
+          </div>
+          {rumorFour ? <p>{props.runeFourRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeFiveAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorFive(!rumorFive);
+              }}
+            >
+              {props.runeFive}
+            </h2>
+          </div>
+          {rumorFive ? <p>{props.runeFiveRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeSixAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorSix(!rumorSix);
+              }}
+            >
+              {props.runeSix}
+            </h2>
+          </div>
+          {rumorSix ? <p>{props.runeSixRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeSevenAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorSeven(!rumorSeven);
+              }}
+            >
+              {props.runeSeven}
+            </h2>
+          </div>
+          {rumorSeven ? <p>{props.runeSevenRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeEightAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorEight(!rumorEight);
+              }}
+            >
+              {props.runeEight}
+            </h2>
+          </div>
+          {rumorEight ? <p>{props.runeEightRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeNineAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorNine(!rumorNine);
+              }}
+            >
+              {props.runeNine}
+            </h2>
+          </div>
+          {rumorNine ? <p>{props.runeNineRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeTenAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorTen(!rumorTen);
+              }}
+            >
+              {props.runeTen}
+            </h2>
+          </div>
+          {rumorTen ? <p>{props.runeTenRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeElevenAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorEleven(!rumorEleven);
+              }}
+            >
+              {props.runeEleven}
+            </h2>
+          </div>
+          {rumorEleven ? <p>{props.runeElevenRumorRaceTwo} </p> : ""}
+          <div className={styles.titleDiv}>
+            <Image
+              src="/wow-icons/druid.png"
+              width={40}
+              height={40}
+              alt={props.runeTwelveAlt}
+            />
+            <h2
+              onClick={() => {
+                setRumorTwelve(!rumorTwelve);
+              }}
+            >
+              {props.runeTwelve}
+            </h2>
+          </div>
+          {rumorTwelve ? <p>{props.runeTwelveRumorRaceTwo} </p> : ""}
         </div>
-        {rumorTwo ? <p>{props.runeTwoRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeThreeAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorThree(!rumorThree);
-            }}
-          >
-            {props.runeThree}
-          </h2>
-        </div>
-        {rumorThree ? <p>{props.runeFourRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeFourAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorFour(!rumorFour);
-            }}
-          >
-            {props.runeFour}
-          </h2>
-        </div>
-        {rumorFour ? <p>{props.runeFourRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeFiveAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorFive(!rumorFive);
-            }}
-          >
-            {props.runeFive}
-          </h2>
-        </div>
-        {rumorFive ? <p>{props.runeFiveRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeSixAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorSix(!rumorSix);
-            }}
-          >
-            {props.runeSix}
-          </h2>
-        </div>
-        {rumorSix ? <p>{props.runeSixRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeSevenAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorSeven(!rumorSeven);
-            }}
-          >
-            {props.runeSeven}
-          </h2>
-        </div>
-        {rumorSeven ? <p>{props.runeSevenRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeEightAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorEight(!rumorEight);
-            }}
-          >
-            {props.runeEight}
-          </h2>
-        </div>
-        {rumorEight ? <p>{props.runeEightRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeNineAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorNine(!rumorNine);
-            }}
-          >
-            {props.runeNine}
-          </h2>
-        </div>
-        {rumorNine ? <p>{props.runeNineRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeTenAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorTen(!rumorTen);
-            }}
-          >
-            {props.runeTen}
-          </h2>
-        </div>
-        {rumorTen ? <p>{props.runeTenRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeElevenAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorEleven(!rumorEleven);
-            }}
-          >
-            {props.runeEleven}
-          </h2>
-        </div>
-        {rumorEleven ? <p>{props.runeElevenRumor} </p> : ""}
-        <div className={styles.titleDiv}>
-          <Image
-            src="/wow-icons/druid.png"
-            width={40}
-            height={40}
-            alt={props.runeTwelveAlt}
-          />
-          <h2
-            onClick={() => {
-              setRumorTwelve(!rumorTwelve);
-            }}
-          >
-            {props.runeTwelve}
-          </h2>
-        </div>
-        {rumorTwelve ? <p>{props.runeTwelveRumor} </p> : ""}
-      </div>
-    </main>
-  );
+      </main>
+    );
+  }
 };
 
 export default Runes;
