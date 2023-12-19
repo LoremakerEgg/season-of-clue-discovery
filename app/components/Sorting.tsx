@@ -144,6 +144,18 @@ const Sorting = (props: any) => {
           runeTenRumorRaceTwo={props.runeTenRumorRaceTwo}
           runeElevenRumorRaceTwo={props.runeElevenRumorRaceTwo}
           runeTwelveRumorRaceTwo={props.runeTwelveRumorRaceTwo}
+          runeOneImage={props.runeOneImage}
+          runeTwoImage={props.runeTwoImage}
+          runeThreeImage={props.runeThreeImage}
+          runeFourImage={props.runeFourImage}
+          runeFiveImage={props.runeFiveImage}
+          runeSixImage={props.runeSixImage}
+          runeSevenImage={props.runeSevenImage}
+          runeEightImage={props.runeEightImage}
+          runeNineImage={props.runeNineImage}
+          runeTenImage={props.runeTenImage}
+          runeElevenImage={props.runeElevenImage}
+          runeTwelveImage={props.runeTwelveImage}
         />
       </main>
     );
