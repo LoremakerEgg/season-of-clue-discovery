@@ -76,11 +76,28 @@ const Sorting = (props: any) => {
           infoStarterZoneFourthRuneRaceTwo={
             props.infoStarterZoneFourthRuneRaceTwo
           }
+          infoStarterZoneFifthRuneRaceOne={
+            props.infoStarterZoneFifthRuneRaceOne
+          }
+          infoStarterZoneFifthRuneRaceTwo={
+            props.infoStarterZoneFifthRuneRaceTwo
+          }
           infoCitiesRaceOne={props.infoCitiesRaceOne}
           infoCitiesRaceTwo={props.infoCitiesRaceTwo}
-          infoSecondZone={props.infoSecondZone}
-          infoThirdZone={props.infoThirdZone}
-          infoSecretZone={props.infoSecretZone}
+          infoSecondZoneFirstRuneRaceOne={props.infoSecondZoneFirstRuneRaceOne}
+          infoSecondZoneFirstRuneRaceTwo={props.infoSecondZoneFirstRuneRaceTwo}
+          infoSecondZoneSecondRuneRaceOne={
+            props.infoSecondZoneSecondRuneRaceOne
+          }
+          infoSecondZoneSecondRuneRaceTwo={
+            props.infoSecondZoneSecondRuneRaceTwo
+          }
+          infoMiscZoneOne={props.infoMiscZoneOne}
+          infoMiscZoneTwo={props.infoMiscZoneTwo}
+          infoMiscZoneThree={props.infoMiscZoneThree}
+          infoMiscZoneFour={props.infoMiscZoneFour}
+          infoMiscZoneFiveRaceOne={props.infoMiscZoneFiveRaceOne}
+          infoMiscZoneFiveRaceTwo={props.infoMiscZoneFiveRaceTwo}
           zoneOneRaceOne={props.zoneOneRaceOne}
           zoneOneRaceTwo={props.zoneOneRaceTwo}
           zoneOneCityRaceOne={props.zoneOneCityRaceOne}
@@ -170,13 +187,16 @@ const Sorting = (props: any) => {
           raceTwoImage={props.raceTwoImage ? props.raceTwoImage : ""}
         />
         <div className={styles.displayChoiceDiv}>
-          <h2 onClick={zoneSortClick} style={{ cursor: "pointer" }}>
+          <h2 onClick={zoneSortClick} className={styles.titleSorting}>
             Sort By Zone
           </h2>
-          <h2 onClick={runeSortClick} style={{ cursor: "pointer" }}>
+          <h2 onClick={runeSortClick} className={styles.titleSorting}>
             Sort By Rune
           </h2>
         </div>
+        <h1 className={styles.titleCenter}>
+          Please select a method of sorting from the two options above!
+        </h1>
       </main>
     );
 };

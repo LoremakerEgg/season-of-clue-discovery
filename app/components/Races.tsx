@@ -13,7 +13,7 @@ const Races = (props: any) => {
   return (
     <main className={styles.main}>
       <div className={styles.racesDiv}>
-        <h3>Races</h3>
+        <h3>Races: </h3>
         {checkImageOne ? (
           activeRace == 1 ? (
             <Image

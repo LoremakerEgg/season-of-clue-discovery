@@ -51,26 +51,64 @@ const Zone = (props: any) => {
               <br />
               <br />
               <p>{props.infoStarterZoneFourthRuneRaceOne}</p>
+              <br />
+              <br />
+              <p>{props.infoStarterZoneFifthRuneRaceOne}</p>
             </div>
           ) : (
             ""
           )}
-          <h2 onClick={toggleShowCitiesClick} style={{ cursor: "pointer" }}>
-            {props.zoneOneCityRaceOne}
-          </h2>
+          {props.zoneOneCityRaceOne ? (
+            <h2 onClick={toggleShowCitiesClick} style={{ cursor: "pointer" }}>
+              {props.zoneOneCityRaceOne}
+            </h2>
+          ) : (
+            ""
+          )}
           {toggleShowCities ? <p>{props.infoCitiesRaceOne}</p> : ""}
           <h2 onClick={toggleShowSecondClick} style={{ cursor: "pointer" }}>
             {props.zoneTwoRaceOne}
           </h2>
-          {toggleShowSecond ? <p>{props.infoSecondZone}</p> : ""}
-          <h2 onClick={toggleShowThirdClick} style={{ cursor: "pointer" }}>
-            Redridge Mountains/Wetlands/Duskwood/Ashenvale
-          </h2>
+          {toggleShowSecond ? (
+            <div>
+              <p>{props.infoSecondZoneFirstRuneRaceOne}</p>
+              <br />
+              <br />
+              <p>{props.infoSecondZoneSecondRuneRaceOne}</p>
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneThreeRaceOne ? (
+            <h2 onClick={toggleShowThirdClick} style={{ cursor: "pointer" }}>
+              {props.zoneThreeRaceOne}
+            </h2>
+          ) : (
+            ""
+          )}
           {toggleShowThird ? <p>{props.infoThirdZone}</p> : ""}
           <h2 onClick={toggleShowSecretClick} style={{ cursor: "pointer" }}>
-            Secret Zones
+            Miscellaneous
           </h2>
-          {toggleShowSecret ? <p>{props.infoSecretZone}</p> : ""}
+          {toggleShowSecret ? (
+            <div>
+              <p>{props.infoMiscZoneOne}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneTwo}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneThree}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneFour}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneFiveRaceOne}</p>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </main>
     );
@@ -93,26 +131,64 @@ const Zone = (props: any) => {
               <br />
               <br />
               <p>{props.infoStarterZoneFourthRuneRaceTwo}</p>
+              <br />
+              <br />
+              <p>{props.infoStarterZoneFifthRuneRaceTwo}</p>
             </div>
           ) : (
             ""
           )}
-          <h2 onClick={toggleShowCitiesClick} style={{ cursor: "pointer" }}>
-            {props.zoneOneCityRaceTwo}
-          </h2>
+          {props.zoneOneCityRaceTwo ? (
+            <h2 onClick={toggleShowCitiesClick} style={{ cursor: "pointer" }}>
+              {props.zoneOneCityRaceTwo}
+            </h2>
+          ) : (
+            ""
+          )}
           {toggleShowCities ? <p>{props.infoCitiesRaceTwo}</p> : ""}
           <h2 onClick={toggleShowSecondClick} style={{ cursor: "pointer" }}>
             {props.zoneTwoRaceTwo}
           </h2>
-          {toggleShowSecond ? <p>{props.infoSecondZone}</p> : ""}
-          <h2 onClick={toggleShowThirdClick} style={{ cursor: "pointer" }}>
-            Redridge Mountains/Wetlands/Duskwood/Ashenvale
-          </h2>
+          {toggleShowSecond ? (
+            <div>
+              <p>{props.infoSecondZoneFirstRuneRaceTwo}</p>
+              <br />
+              <br />
+              <p>{props.infoSecondZoneSecondRuneRaceTwo}</p>
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneThreeRaceTwo ? (
+            <h2 onClick={toggleShowThirdClick} style={{ cursor: "pointer" }}>
+              {props.zoneThreeRaceTwo}
+            </h2>
+          ) : (
+            ""
+          )}
           {toggleShowThird ? <p>{props.infoThirdZone}</p> : ""}
           <h2 onClick={toggleShowSecretClick} style={{ cursor: "pointer" }}>
-            Secret Zones
+            Miscellaneous
           </h2>
-          {toggleShowSecret ? <p>{props.infoSecretZone}</p> : ""}
+          {toggleShowSecret ? (
+            <div>
+              <p>{props.infoMiscZoneOne}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneTwo}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneThree}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneFour}</p>
+              <br />
+              <br />
+              <p>{props.infoMiscZoneFiveRaceTwo}</p>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </main>
     );

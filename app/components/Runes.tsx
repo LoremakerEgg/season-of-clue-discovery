@@ -35,6 +35,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorOne(!rumorOne);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeOne}
             </h2>
@@ -51,6 +52,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorTwo(!rumorTwo);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeTwo}
             </h2>
@@ -67,6 +69,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorThree(!rumorThree);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeThree}
             </h2>
@@ -83,6 +86,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorFour(!rumorFour);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeFour}
             </h2>
@@ -99,6 +103,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorFive(!rumorFive);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeFive}
             </h2>
@@ -115,6 +120,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorSix(!rumorSix);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeSix}
             </h2>
@@ -131,6 +137,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorSeven(!rumorSeven);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeSeven}
             </h2>
@@ -147,6 +154,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorEight(!rumorEight);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeEight}
             </h2>
@@ -163,6 +171,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorNine(!rumorNine);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeNine}
             </h2>
@@ -179,6 +188,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorTen(!rumorTen);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeTen}
             </h2>
@@ -195,6 +205,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorEleven(!rumorEleven);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeEleven}
             </h2>
@@ -211,6 +222,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorTwelve(!rumorTwelve);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeTwelve}
             </h2>
@@ -234,6 +246,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorOne(!rumorOne);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeOne}
             </h2>
@@ -250,6 +263,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorTwo(!rumorTwo);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeTwo}
             </h2>
@@ -266,6 +280,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorThree(!rumorThree);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeThree}
             </h2>
@@ -282,6 +297,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorFour(!rumorFour);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeFour}
             </h2>
@@ -298,6 +314,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorFive(!rumorFive);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeFive}
             </h2>
@@ -314,6 +331,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorSix(!rumorSix);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeSix}
             </h2>
@@ -330,6 +348,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorSeven(!rumorSeven);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeSeven}
             </h2>
@@ -346,6 +365,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorEight(!rumorEight);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeEight}
             </h2>
@@ -362,6 +382,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorNine(!rumorNine);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeNine}
             </h2>
@@ -378,6 +399,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorTen(!rumorTen);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeTen}
             </h2>
@@ -394,6 +416,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorEleven(!rumorEleven);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeEleven}
             </h2>
@@ -410,6 +433,7 @@ const Runes = (props: any) => {
               onClick={() => {
                 setRumorTwelve(!rumorTwelve);
               }}
+              style={{ cursor: "pointer" }}
             >
               {props.runeTwelve}
             </h2>
