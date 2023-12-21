@@ -151,6 +151,10 @@ const Sorting = (props: any) => {
             infoMiscZoneFiveRaceTwo={props.infoMiscZoneFiveRaceTwo}
             infoMiscZoneFiveRaceThree={props.infoMiscZoneFiveRaceThree}
             infoMiscZoneFiveRaceFour={props.infoMiscZoneFiveRaceFour}
+            infoMiscZoneSixRaceOne={props.infoMiscZoneSixRaceOne}
+            infoMiscZoneSixRaceTwo={props.infoMiscZoneSixRaceTwo}
+            infoMiscZoneSixRaceThree={props.infoMiscZoneSixRaceThree}
+            infoMiscZoneSixRaceFour={props.infoMiscZoneSixRaceFour}
             zoneOneRaceOne={props.zoneOneRaceOne}
             zoneOneRaceTwo={props.zoneOneRaceTwo}
             zoneOneRaceThree={props.zoneOneRaceThree}

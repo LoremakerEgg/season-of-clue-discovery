@@ -165,11 +165,20 @@ const Zone = (props: any) => {
               ) : (
                 ""
               )}
-              {props.infoMiscZoneFiveRaceTwo ? (
+              {props.infoMiscZoneFiveRaceOne ? (
                 <section>
                   <br />
                   <br />
-                  <p>{props.infoMiscZoneFiveRaceTwo}</p>
+                  <p>{props.infoMiscZoneFiveRaceOne}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneSixRaceOne ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneSixRaceOne}</p>
                 </section>
               ) : (
                 ""
@@ -323,6 +332,15 @@ const Zone = (props: any) => {
               ) : (
                 ""
               )}
+              {props.infoMiscZoneSixRaceTwo ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneSixRaceTwo}</p>
+                </section>
+              ) : (
+                ""
+              )}
             </div>
           ) : (
             ""
@@ -472,6 +490,15 @@ const Zone = (props: any) => {
               ) : (
                 ""
               )}
+              {props.infoMiscZoneSixRaceThree ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneSixRaceThree}</p>
+                </section>
+              ) : (
+                ""
+              )}
             </div>
           ) : (
             ""
@@ -617,6 +644,15 @@ const Zone = (props: any) => {
                   <br />
                   <br />
                   <p>{props.infoMiscZoneFiveRaceFour}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneSixRaceFour ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneSixRaceFour}</p>
                 </section>
               ) : (
                 ""
