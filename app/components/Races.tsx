@@ -11,6 +11,7 @@ const Races = (props: any) => {
   const checkImageTwo = props.raceTwoImage;
   const checkImageThree = props.raceThreeImage;
   const checkImageFour = props.raceFourImage;
+  const checkImageFive = props.raceFiveImage;
 
   return (
     <main className={styles.main}>
@@ -105,6 +106,30 @@ const Races = (props: any) => {
               height={40}
               onClick={() => {
                 setActiveRace(4);
+              }}
+              style={{ cursor: "pointer" }}
+            />
+          )
+        ) : (
+          ""
+        )}
+        {checkImageFive ? (
+          activeRace == 5 ? (
+            <Image
+              src={props.raceFiveImage}
+              alt={props.raceFive}
+              width={40}
+              height={40}
+              className={styles.image}
+            />
+          ) : (
+            <Image
+              src={props.raceFiveImage}
+              alt={props.raceFive}
+              width={40}
+              height={40}
+              onClick={() => {
+                setActiveRace(5);
               }}
               style={{ cursor: "pointer" }}
             />

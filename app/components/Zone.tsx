@@ -664,6 +664,164 @@ const Zone = (props: any) => {
         </div>
       </main>
     );
+  } else if (activeRace == 5) {
+    return (
+      <main className={styles.main}>
+        <div className={styles.zoneDiv}>
+          <h2 onClick={toggleShowStarterClick} style={{ cursor: "pointer" }}>
+            {props.zoneOneRaceFive}
+          </h2>
+          {toggleShowStarter ? (
+            <div>
+              <p>{props.infoStarterZoneFirstRune}</p>
+              {props.infoStarterZoneSecondRuneRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneSecondRuneRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneThirdRuneRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneThirdRuneRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneFourthRuneRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneFourthRuneRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneFifthRuneRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneFifthRuneRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneOneCityRaceFive ? (
+            <h2 onClick={toggleShowCitiesClick} style={{ cursor: "pointer" }}>
+              {props.zoneOneCityRaceFive}
+            </h2>
+          ) : (
+            ""
+          )}
+          {toggleShowCities ? (
+            <div>
+              <p>{props.infoCitiesRaceFive}</p>
+              {props.infoCitiesTwoRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoCitiesTwoRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          <h2 onClick={toggleShowSecondClick} style={{ cursor: "pointer" }}>
+            {props.zoneTwoRaceFive}
+          </h2>
+          {toggleShowSecond ? (
+            <div>
+              <p>{props.infoSecondZoneFirstRuneRaceFive}</p>
+              {props.infoSecondZoneSecondRuneRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoSecondZoneSecondRuneRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneThreeRaceFive ? (
+            <h2 onClick={toggleShowThirdClick} style={{ cursor: "pointer" }}>
+              {props.zoneThreeRaceFive}
+            </h2>
+          ) : (
+            ""
+          )}
+          {toggleShowThird ? <p>{props.infoThirdZone}</p> : ""}
+          <h2 onClick={toggleShowSecretClick} style={{ cursor: "pointer" }}>
+            {props.infoMiscZoneOne ? "Miscellaneous" : ""}
+          </h2>
+          {toggleShowSecret ? (
+            <div>
+              <p>{props.infoMiscZoneOne}</p>
+              {props.infoMiscZoneTwo ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneTwo}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneThree ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneThree}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneFour ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneFour}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneFiveRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneFiveRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneSixRaceFive ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneSixRaceFive}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
+      </main>
+    );
   }
 };
 
