@@ -822,6 +822,322 @@ const Zone = (props: any) => {
         </div>
       </main>
     );
+  } else if (activeRace == 6) {
+    return (
+      <main className={styles.main}>
+        <div className={styles.zoneDiv}>
+          <h2 onClick={toggleShowStarterClick} style={{ cursor: "pointer" }}>
+            {props.zoneOneRaceSix}
+          </h2>
+          {toggleShowStarter ? (
+            <div>
+              <p>{props.infoStarterZoneFirstRune}</p>
+              {props.infoStarterZoneSecondRuneRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneSecondRuneRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneThirdRuneRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneThirdRuneRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneFourthRuneRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneFourthRuneRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneFifthRuneRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneFifthRuneRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneOneCityRaceSix ? (
+            <h2 onClick={toggleShowCitiesClick} style={{ cursor: "pointer" }}>
+              {props.zoneOneCityRaceSix}
+            </h2>
+          ) : (
+            ""
+          )}
+          {toggleShowCities ? (
+            <div>
+              <p>{props.infoCitiesRaceSix}</p>
+              {props.infoCitiesTwoRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoCitiesTwoRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          <h2 onClick={toggleShowSecondClick} style={{ cursor: "pointer" }}>
+            {props.zoneTwoRaceSix}
+          </h2>
+          {toggleShowSecond ? (
+            <div>
+              <p>{props.infoSecondZoneFirstRuneRaceSix}</p>
+              {props.infoSecondZoneSecondRuneRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoSecondZoneSecondRuneRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneThreeRaceSix ? (
+            <h2 onClick={toggleShowThirdClick} style={{ cursor: "pointer" }}>
+              {props.zoneThreeRaceSix}
+            </h2>
+          ) : (
+            ""
+          )}
+          {toggleShowThird ? <p>{props.infoThirdZone}</p> : ""}
+          <h2 onClick={toggleShowSecretClick} style={{ cursor: "pointer" }}>
+            {props.infoMiscZoneOne ? "Miscellaneous" : ""}
+          </h2>
+          {toggleShowSecret ? (
+            <div>
+              <p>{props.infoMiscZoneOne}</p>
+              {props.infoMiscZoneTwo ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneTwo}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneThree ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneThree}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneFour ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneFour}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneFiveRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneFiveRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneSixRaceSix ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneSixRaceSix}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
+      </main>
+    );
+  } else if (activeRace == 7) {
+    return (
+      <main className={styles.main}>
+        <div className={styles.zoneDiv}>
+          <h2 onClick={toggleShowStarterClick} style={{ cursor: "pointer" }}>
+            {props.zoneOneRaceSeven}
+          </h2>
+          {toggleShowStarter ? (
+            <div>
+              <p>{props.infoStarterZoneFirstRune}</p>
+              {props.infoStarterZoneSecondRuneRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneSecondRuneRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneThirdRuneRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneThirdRuneRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneFourthRuneRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneFourthRuneRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoStarterZoneFifthRuneRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoStarterZoneFifthRuneRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneOneCityRaceSeven ? (
+            <h2 onClick={toggleShowCitiesClick} style={{ cursor: "pointer" }}>
+              {props.zoneOneCityRaceSeven}
+            </h2>
+          ) : (
+            ""
+          )}
+          {toggleShowCities ? (
+            <div>
+              <p>{props.infoCitiesRaceSeven}</p>
+              {props.infoCitiesTwoRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoCitiesTwoRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          <h2 onClick={toggleShowSecondClick} style={{ cursor: "pointer" }}>
+            {props.zoneTwoRaceSeven}
+          </h2>
+          {toggleShowSecond ? (
+            <div>
+              <p>{props.infoSecondZoneFirstRuneRaceSeven}</p>
+              {props.infoSecondZoneSecondRuneRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoSecondZoneSecondRuneRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+          {props.zoneThreeRaceSeven ? (
+            <h2 onClick={toggleShowThirdClick} style={{ cursor: "pointer" }}>
+              {props.zoneThreeRaceSeven}
+            </h2>
+          ) : (
+            ""
+          )}
+          {toggleShowThird ? <p>{props.infoThirdZone}</p> : ""}
+          <h2 onClick={toggleShowSecretClick} style={{ cursor: "pointer" }}>
+            {props.infoMiscZoneOne ? "Miscellaneous" : ""}
+          </h2>
+          {toggleShowSecret ? (
+            <div>
+              <p>{props.infoMiscZoneOne}</p>
+              {props.infoMiscZoneTwo ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneTwo}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneThree ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneThree}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneFour ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneFour}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneFiveRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneFiveRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+              {props.infoMiscZoneSixRaceSeven ? (
+                <section>
+                  <br />
+                  <br />
+                  <p>{props.infoMiscZoneSixRaceSeven}</p>
+                </section>
+              ) : (
+                ""
+              )}
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
+      </main>
+    );
   }
 };
 
