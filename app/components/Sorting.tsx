@@ -54,6 +54,7 @@ const Sorting = (props: any) => {
           raceFiveImage={props.raceFiveImage ? props.raceFiveImage : ""}
           raceSixImage={props.raceSixImage ? props.raceSixImage : ""}
           raceSevenImage={props.raceSevenImage ? props.raceSevenImage : ""}
+          raceEightImage={props.raceEightImage ? props.raceEightImage : ""}
         />
         <div className={styles.displayChoiceDiv}>
           <h2 onClick={zoneSortClick} className={styles.titleSorting}>
@@ -87,6 +88,9 @@ const Sorting = (props: any) => {
             infoStarterZoneSecondRuneRaceSeven={
               props.infoStarterZoneSecondRuneRaceSeven
             }
+            infoStarterZoneSecondRuneRaceEight={
+              props.infoStarterZoneSecondRuneRaceEight
+            }
             infoStarterZoneThirdRuneRaceOne={
               props.infoStarterZoneThirdRuneRaceOne
             }
@@ -107,6 +111,9 @@ const Sorting = (props: any) => {
             }
             infoStarterZoneThirdRuneRaceSeven={
               props.infoStarterZoneThirdRuneRaceSeven
+            }
+            infoStarterZoneThirdRuneRaceEight={
+              props.infoStarterZoneThirdRuneRaceEight
             }
             infoStarterZoneFourthRuneRaceOne={
               props.infoStarterZoneFourthRuneRaceOne
@@ -129,6 +136,9 @@ const Sorting = (props: any) => {
             infoStarterZoneFourthRuneRaceSeven={
               props.infoStarterZoneFourthRuneRaceSeven
             }
+            infoStarterZoneFourthRuneRaceEight={
+              props.infoStarterZoneFourthRuneRaceEight
+            }
             infoStarterZoneFifthRuneRaceOne={
               props.infoStarterZoneFifthRuneRaceOne
             }
@@ -149,6 +159,9 @@ const Sorting = (props: any) => {
             }
             infoStarterZoneFifthRuneRaceSeven={
               props.infoStarterZoneFifthRuneRaceSeven
+            }
+            infoStarterZoneFifthRuneRaceEight={
+              props.infoStarterZoneFifthRuneRaceEight
             }
             infoCitiesRaceOne={props.infoCitiesRaceOne}
             infoCitiesRaceTwo={props.infoCitiesRaceTwo}
@@ -181,6 +194,9 @@ const Sorting = (props: any) => {
             infoSecondZoneFirstRuneRaceSeven={
               props.infoSecondZoneFirstRuneRaceSeven
             }
+            infoSecondZoneFirstRuneRaceEight={
+              props.infoSecondZoneFirstRuneRaceEight
+            }
             infoSecondZoneSecondRuneRaceOne={
               props.infoSecondZoneSecondRuneRaceOne
             }
@@ -202,6 +218,9 @@ const Sorting = (props: any) => {
             infoSecondZoneSecondRuneRaceSeven={
               props.infoSecondZoneSecondRuneRaceSeven
             }
+            infoSecondZoneSecondRuneRaceEight={
+              props.infoSecondZoneSecondRuneRaceEight
+            }
             infoMiscZoneOne={props.infoMiscZoneOne}
             infoMiscZoneTwo={props.infoMiscZoneTwo}
             infoMiscZoneThree={props.infoMiscZoneThree}
@@ -213,6 +232,7 @@ const Sorting = (props: any) => {
             infoMiscZoneFiveRaceFive={props.infoMiscZoneFiveRaceFive}
             infoMiscZoneFiveRaceSix={props.infoMiscZoneFiveRaceSix}
             infoMiscZoneFiveRaceSeven={props.infoMiscZoneFiveRaceSeven}
+            infoMiscZoneFiveRaceEight={props.infoMiscZoneFiveRaceEight}
             infoMiscZoneSixRaceOne={props.infoMiscZoneSixRaceOne}
             infoMiscZoneSixRaceTwo={props.infoMiscZoneSixRaceTwo}
             infoMiscZoneSixRaceThree={props.infoMiscZoneSixRaceThree}
@@ -225,6 +245,7 @@ const Sorting = (props: any) => {
             zoneOneRaceFive={props.zoneOneRaceFive}
             zoneOneRaceSix={props.zoneOneRaceSix}
             zoneOneRaceSeven={props.zoneOneRaceSeven}
+            zoneOneRaceEight={props.zoneOneRaceEight}
             zoneOneCityRaceOne={props.zoneOneCityRaceOne}
             zoneOneCityRaceTwo={props.zoneOneCityRaceTwo}
             zoneOneCityRaceThree={props.zoneOneCityRaceThree}
@@ -237,6 +258,7 @@ const Sorting = (props: any) => {
             zoneTwoRaceFive={props.zoneTwoRaceFive}
             zoneTwoRaceSix={props.zoneTwoRaceSix}
             zoneTwoRaceSeven={props.zoneTwoRaceSeven}
+            zoneTwoRaceEight={props.zoneTwoRaceEight}
           />
         ) : (
           <h1 className={styles.titleCenter}>
@@ -267,6 +289,7 @@ const Sorting = (props: any) => {
           raceFiveImage={props.raceFiveImage ? props.raceFiveImage : ""}
           raceSixImage={props.raceSixImage ? props.raceSixImage : ""}
           raceSevenImage={props.raceSevenImage ? props.raceSevenImage : ""}
+          raceEightImage={props.raceEightImage ? props.raceEightImage : ""}
         />
         <div className={styles.displayChoiceDiv}>
           <h2 onClick={zoneSortClick} className={styles.titleSorting}>
@@ -366,7 +389,7 @@ const Sorting = (props: any) => {
             runeTwoRumorRaceSeven={props.runeTwoRumorRaceSeven}
             runeThreeRumorRaceSeven={props.runeThreeRumorRaceSeven}
             runeFourRumorRaceSeven={props.runeFourRumorRaceSeven}
-            runeFiveRumorRaceSeven={props.runeSevenRumorRaceSeven}
+            runeFiveRumorRaceSeven={props.runeFiveRumorRaceSeven}
             runeSixRumorRaceSeven={props.runeSixRumorRaceSeven}
             runeSevenRumorRaceSeven={props.runeSevenRumorRaceSeven}
             runeEightRumorRaceSeven={props.runeEightRumorRaceSeven}
@@ -374,6 +397,18 @@ const Sorting = (props: any) => {
             runeTenRumorRaceSeven={props.runeTenRumorRaceSeven}
             runeElevenRumorRaceSeven={props.runeElevenRumorRaceSeven}
             runeTwelveRumorRaceSeven={props.runeTwelveRumorRaceSeven}
+            runeOneRumorRaceEight={props.runeOneRumorRaceEight}
+            runeTwoRumorRaceEight={props.runeTwoRumorRaceEight}
+            runeThreeRumorRaceEight={props.runeThreeRumorRaceEight}
+            runeFourRumorRaceEight={props.runeFourRumorRaceEight}
+            runeFiveRumorRaceEight={props.runeFiveRumorRaceEight}
+            runeSixRumorRaceEight={props.runeSixRumorRaceEight}
+            runeSevenRumorRaceEight={props.runeSevenRumorRaceEight}
+            runeEightRumorRaceEight={props.runeEightRumorRaceEight}
+            runeNineRumorRaceEight={props.runeNineRumorRaceEight}
+            runeTenRumorRaceEight={props.runeTenRumorRaceEight}
+            runeElevenRumorRaceEight={props.runeElevenRumorRaceEight}
+            runeTwelveRumorRaceEight={props.runeTwelveRumorRaceEight}
             runeOneImage={props.runeOneImage}
             runeTwoImage={props.runeTwoImage}
             runeThreeImage={props.runeThreeImage}
@@ -416,6 +451,7 @@ const Sorting = (props: any) => {
           raceFiveImage={props.raceFiveImage ? props.raceFiveImage : ""}
           raceSixImage={props.raceSixImage ? props.raceSixImage : ""}
           raceSevenImage={props.raceSevenImage ? props.raceSevenImage : ""}
+          raceEightImage={props.raceEightImage ? props.raceEightImage : ""}
         />
         <div className={styles.displayChoiceDiv}>
           <h2 onClick={zoneSortClick} className={styles.titleSorting}>
