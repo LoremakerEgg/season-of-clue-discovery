@@ -35,14 +35,6 @@ const Sorting = (props: any) => {
   if (sortDisplay == 1) {
     return (
       <main className={styles.main}>
-        <Link
-          href="/"
-          onClick={() => {
-            setSortDisplay(0);
-          }}
-        >
-          Home
-        </Link>
         <div className={styles.title}>
           <h1>{props.class} Runes</h1>
         </div>
@@ -270,14 +262,6 @@ const Sorting = (props: any) => {
   } else if (sortDisplay == 2) {
     return (
       <main className={styles.main}>
-        <Link
-          href="/"
-          onClick={() => {
-            setSortDisplay(0);
-          }}
-        >
-          Home
-        </Link>
         <div className={styles.title}>
           <h1>{props.class} Runes</h1>
         </div>
@@ -432,14 +416,6 @@ const Sorting = (props: any) => {
   } else
     return (
       <main className={styles.main}>
-        <Link
-          href="/"
-          onClick={() => {
-            setSortDisplay(0);
-          }}
-        >
-          Home
-        </Link>
         <div className={styles.title}>
           <h1>{props.class} Runes</h1>
         </div>
